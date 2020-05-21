@@ -1,0 +1,35 @@
+<?xml version = "1.0"?>
+<data-set xmlns="StdNamespace">
+<codigo>
+        <CodProv>105819</CodProv>
+        <Descripcion>Passio 2®</Descripcion>
+        <Medida>1557013</Medida>
+        <Disponibilidad>+ de 500</Disponibilidad>
+        <Costobruto>1389</Costobruto>
+        <Marca>GOODYEAR</Marca>
+        <Proveedor>Goodyear</Proveedor>
+        <Paqueteria(neto)>162.4</Paqueteria(neto)>
+        <CostoNeto>1678.375</CostoNeto>
+        <CostoTotal>1840.775</CostoTotal>
+        <Marca2>GOODYEAR</Marca2>
+        <Preciomargen20>3567</Preciomargen20>
+        <Preciomargen25>3513</Preciomargen25>
+        <Preciomargen30>3400</Preciomargen30>
+</codigo>
+<codigo>
+        <CodProv>106845</CodProv>
+        <Descripcion>Assurance®</Descripcion>
+        <Medida>1757013</Medida>
+        <Disponibilidad>+ de 500</Disponibilidad>
+        <Costobruto>1476</Costobruto>
+        <Marca>GOODYEAR</Marca>
+        <Proveedor>Goodyear</Proveedor>
+        <Paqueteria(neto)>162.4</Paqueteria(neto)>
+        <CostoNeto>1783.5</CostoNeto>
+        <CostoTotal>1945.9</CostoTotal>
+        <Marca2>GOODYEAR</Marca2>
+        <Preciomargen20>3567</Preciomargen20>
+        <Preciomargen25>3513</Preciomargen25>
+        <Preciomargen30>3400</Preciomargen30>
+</codigo>
+</data-set>

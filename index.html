@@ -62,7 +62,7 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>Medida</th><th>Marca</th><th>Descripcion</th><th>Disponibilidad</th><th>Proveedor</th></tr>";
+  var table="<tr><th>Medida</th><th>Marca</th><th>Descripcion</th><th>Disponibilidad</th><th>Proveedor</th><th>Precio 20 margen</th><th>Precio 25 margen</th><th>Precio 30 margen</th></tr>";
   var x = xmlDoc.getElementsByTagName("codigo");
   var textBox1 = document.getElementById('fmedida').value;
 
@@ -78,6 +78,12 @@ function myFunction(xml) {
       x[i].getElementsByTagName("disponibilidad")[0].childNodes[0].nodeValue +
       "</td><td>" +
       x[i].getElementsByTagName("proveedor")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("precio20")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("precio25")[0].childNodes[0].nodeValue +
+      "</td><td>" +
+      x[i].getElementsByTagName("precio30")[0].childNodes[0].nodeValue +
       "</td></tr>";
     }
   }

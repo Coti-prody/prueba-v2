@@ -18,12 +18,12 @@ p {
 table {
   border-collapse: collapse;
   width: 100%;
+  font-family: Helvetica;
 }
 
 th, td {
   padding: 8px;
   text-align: left;
-  font-family: Helvetica;
   border-bottom: 1px solid #ddd;
 }
 

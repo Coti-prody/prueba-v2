@@ -33,10 +33,10 @@ th {
   padding: 12px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-  background-color: slategrey;
+  background-color: darkslategrey;
 }
 
-tr:hover {background-color:steelblue;}
+tr:hover {background-color:dodgerblue;}
 
 label {
   font-family: Georgia;

@@ -21,13 +21,20 @@ table {
   font-family: Helvetica;
 }
 
-th, td {
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
 tr:hover {background-color: #699CB5;}
+
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
 
 label {
   font-family: Georgia;
